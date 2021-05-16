@@ -1,0 +1,150 @@
+@browncolor: #463F3A;
+@pinkcolor: #ca9e91;
+.content{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.navig{
+  margin-left: 15px;
+  margin-top: 30px;
+  align-items: center;
+}
+.arrow {
+  transform: rotate(90deg);
+  width: 25px;
+  height: 15px;
+}
+.home{
+  width: 30px;
+  height: 30px;
+  vertical-align: -5px;
+}
+.cont{
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px;
+  margin-bottom: 90px;
+}
+.menu1{
+  flex: 1;
+  min-width: 230px;
+  max-width: 230px;
+  min-height: 598px;
+  background: #EEEDE6;
+
+}
+.category{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.page{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  letter-spacing: 0.05em;
+  color: @browncolor;
+  min-height: 30px;
+}
+.page1{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+.information{
+  flex: 3;
+  margin-left: 59px;
+}
+.title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: left;
+  letter-spacing: 0.05em;
+  color: @browncolor;
+}
+.title1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: @browncolor;
+  margin-top: 39px;
+  margin-bottom: 10px;
+}
+.txtbold{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  letter-spacing: 0.05em;
+  color: @browncolor;
+  margin-top: 20px;
+}
+.txt{
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  letter-spacing: 0.05em;
+  color: @browncolor;
+  margin-top: 15px;
+}
+@media (max-width: 800px) {
+  .menu1{
+    display: none !important;
+  }
+  .information{
+    margin-left: 15px;
+  }
+}
+@media (min-width: 800px){
+  .arrow{
+    display: none !important;
+  }
+  .home{
+    display: none !important;
+  }
+}
+@media (max-width: 480px) {
+  .title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 0px;
+  }
+  .title1{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+  .txtbold{
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .txt{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .conv{
+    margin-top: 10px;
+  }
+}
+.menu1{
+  margin-left: 10px;
+}
